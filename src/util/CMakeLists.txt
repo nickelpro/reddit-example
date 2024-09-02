@@ -1,0 +1,6 @@
+target_sources(Util
+  PRIVATE Util.cpp
+  PUBLIC FILE_SET HEADERS
+  BASE_DIRS ${CMAKE_CURRENT_LIST_DIR}
+  FILES Util.hpp
+)
